@@ -1,3 +1,4 @@
+//以形状与长方形的关系为例，练习了类的继承
 #include<iostream>
 using namespace std;
 
@@ -37,4 +38,5 @@ int main()
 	area = Rectangle1.getarea();
 	cout << "the area of Rectangle1 is " << area << endl;	//利用类中函数的返回值
 	cout << "the Rectangle1.area is " << Rectangle1.area <<endl;	//利用类中函数与变量的传递
+	return 0;
 }
