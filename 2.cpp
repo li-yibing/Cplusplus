@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-class Shape	//定义形状类
+class Shape	//定义形状类,用类内函数访问保护成员
 {
 public:
 	void setWidth(double w)
